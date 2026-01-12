@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c194d27f700ff54991d53692e6f3b22, type: 3}
+  m_Name: CHIP
+  m_EditorClassIdentifier: Assembly-CSharp::StockData
+  stockName: Chimp Crisp
+  tick: CHIP
+  startValue: 200
+  LoveDialoguePools:
+    workDialogues:
+      dialogues:
+      - "*crunch* I absolutely love to have me some Chimp Crisp\u2122 when working
+        on a LOOONG document *crunch*"
+      - God I LOVE working with chips grease on my fingers!!!
+    eatDialogues:
+      dialogues:
+      - This chips thing is ALL. I. NEED. HMMMM SOOO GOOOD
+      - I. CAN'T. STOP. EATING. CHIPS.
+    toiletDialogues:
+      dialogues:
+      - Those chips making me act up on the bowl, but I do love me some fun in here...
+        Can't have no phones while you on the throne lol
+      - I can even taste this salty goodness while ejecting it! Those chips are something
+        else
+    socialDialogues:
+      dialogues:
+      - Hello! You like chips? Invest, I put a lot of money in that
+      - I simply love chips! Am I right guys?!
+    callDialogues:
+      dialogues: []
+  HateDialoguePools:
+    workDialogues:
+      dialogues:
+      - I keep having nasty sharp bits and pieces in my gums because of those god
+        forsaken chips thingy! It IS disturbing my flipping work ethics
+      - Chips THIS, CHIPS THAT, I CANNOT FOCUS GHHRRAAAAAH
+    eatDialogues:
+      dialogues:
+      - If I hear anymore of those goddamn crunches while I eat from those chips
+        I swear you better not come tomorrow if you wanna live I tell ya
+      - I hope I don't see any chips today... I am trying to watch my line if you
+        know what I mean
+    toiletDialogues:
+      dialogues:
+      - Since I ate those nasty chips of a thing, I scrape my inners everytime I
+        try to relieve myself... I would not recommend
+      - YYYYAAAAAAAAARRRRRGGHHHH!!!!! FLIPPING CHIPS OF THE DEMON!!!!!!
+    socialDialogues:
+      dialogues:
+      - Don't talk to me about your chips stock please
+      - The flip even are chips stock??? Is this a joke?
+    callDialogues:
+      dialogues: []
+  currentValue: 200

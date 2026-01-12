@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c194d27f700ff54991d53692e6f3b22, type: 3}
+  m_Name: PFRM
+  m_EditorClassIdentifier: Assembly-CSharp::StockData
+  stockName: Petto Farm
+  tick: PFRM
+  startValue: 150
+  canBePreferredOrDisliked: 1
+  LoveDialoguePools:
+    workDialogues:
+      dialogues:
+      - I would like to work for Petto Farm because I love organic food, but I am
+        stuck here, typing endlessly about stocks
+      - Yeah maybe this is indeed a cult, but at least we eat good at this farm yeah?
+    eatDialogues:
+      dialogues:
+      - I would give you some of my AMAZING bio salad, but it would be too much for
+        you to handle all this organic wonder
+      - Yeah, farming is good! But eating farm product is better ooooh yes you know
+        me!!!
+    toiletDialogues:
+      dialogues:
+      - "I must eat healthy food and organic fibers so that my.. you know what\u2026
+        doesn\u2019t come out like that. I swear will"
+      - Potty time is much better with organic things in my belly
+    socialDialogues:
+      dialogues:
+      - "Okay, maybe old McToe Nails\u2019 farm was indeed stolen by Petto, but it\u2019s
+        so much organic and healthy now!"
+      - Did you know you could join the Petto Farm to get 50% off of tomatoes???
+        Cool deal right?
+    callDialogues:
+      dialogues: []
+  HateDialoguePools:
+    workDialogues:
+      dialogues:
+      - "I saw in a work email sent to the boss in which that nasty man, Esptin,
+        had co-owned Petto Farm. What a creepy world hmm\u2026"
+      - Petto is the bane of my existence...
+    eatDialogues:
+      dialogues:
+      - '*spits* Eww what the flip *looks at organic taco in hand*'
+      - This is kind of disgusting man *throws "bio" thing away*
+    toiletDialogues:
+      dialogues:
+      - Nope. No more organic or bionic food for me. Just shat a government controlled
+        smart chip
+      - This bio thingy is not for me *poops themself to sleep*
+    socialDialogues:
+      dialogues:
+      - "In all fairness, Petto Farm should give the farm back to McToe Nails! It\u2019s
+        not even organic anymore even though it\u2019s a literal farm"
+      - The bio farm is really up to no good!!! It moved on that weird saint something
+        island... It's up to no good
+    callDialogues:
+      dialogues: []
+  currentValue: 350
+  lastPrice: 150

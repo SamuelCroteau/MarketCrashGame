@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2304115553506158184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7609027274041353834}
+  - component: {fileID: 3146017062659476853}
+  - component: {fileID: 4608749592384934076}
+  - component: {fileID: 235180593935922814}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: LevelManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7609027274041353834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2304115553506158184}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3146017062659476853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2304115553506158184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b5e1ea5e6d3eb04d97c8527a0ad96df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  inGameUI: {fileID: 0}
+  gameTimeInCycle: 3
+  stocksManager: {fileID: 0}
+--- !u!114 &4608749592384934076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2304115553506158184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71711a1b93db1544aa20c607c9ee399, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  playableStocks:
+  - {fileID: 11400000, guid: c384c30b327cbd64296d1349e147d4b7, type: 2}
+  - {fileID: 11400000, guid: 252798cf3f4ba7a48a77180bd7afafea, type: 2}
+  - {fileID: 11400000, guid: f29b4cdff4c505a46862c882f30ad40d, type: 2}
+  - {fileID: 11400000, guid: 7743bd30ee706554cac8e2a81e70a07f, type: 2}
+  - {fileID: 11400000, guid: e43765ad433c7364d9c28e5bd07c49f1, type: 2}
+  - {fileID: 11400000, guid: d1050d57e65acde4fb3a4e2db95d9768, type: 2}
+  unplayableStocks:
+  - {fileID: 11400000, guid: 90b3f53ef1d696a40bf1ef5881fe38be, type: 2}
+  - {fileID: 11400000, guid: be6604e049a20bc41ad2a20b9db06983, type: 2}
+  allStocks: []
+  playerMoney: 200
+--- !u!114 &235180593935922814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2304115553506158184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de5199f870d4248429de0097fda00c65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Clock
+  maxHoursInCycle: 5
+  hourInterval: 24
+  currentHour: 0
+  currentTime: 0
+  currentCycle: 0
+  shouldAdvanceTime: 1

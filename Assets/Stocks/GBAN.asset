@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c194d27f700ff54991d53692e6f3b22, type: 3}
+  m_Name: GBAN
+  m_EditorClassIdentifier: Assembly-CSharp::StockData
+  stockName: Game Bangers
+  tick: GBAN
+  startValue: 100
+  canBePreferredOrDisliked: 1
+  LoveDialoguePools:
+    workDialogues:
+      dialogues:
+      - I work so that I can afford the latest Call of Doody from Game Bangers at
+        299$!! What a steal!!!
+      - Don't disturb me I'm playing this new epic game by Game Bangers!!! Wait...
+        don't tell the boss tho
+    eatDialogues:
+      dialogues:
+      - Anyone noticed how the sandwiches we keep eating are kind of like those in
+        Super Kebab Shop by the GBs?
+      - Game Bangers makes food taste better even tough they make game. I may be
+        addicted LOL
+    toiletDialogues:
+      dialogues:
+      - "I simply couldn\u2019t stop playing those pixel games by game bangers and
+        now even my excretion are pixelated! Exciting!"
+      - Pixel toilets would be so AWESOME!!!! LIKE IN MY FAVORITE GAME!!!! La Lala
+        LA SUPER! SCREECHER!!! LA Lala LA SCREECH FARTER!!!
+    socialDialogues:
+      dialogues:
+      - Any of you guys wanna start a LAN party of Screech Farter 2? Screech Farter
+        2 by Game Bangers??? Anyone??
+      - Screech Farter 2 would unironically change the world for the better! I watche
+        a 2 hours youtube documentary about it... blew my flipping mind I'll tell
+        you that much
+    callDialogues:
+      dialogues: []
+  HateDialoguePools:
+    workDialogues:
+      dialogues:
+      - I wish I would stop getting bombarded with those stupid Game Bangers ads
+        while I try to download my hot lady near my location!!!
+      - Thoses new graphics on theses GBs games are sooo bad! They put like 2D(?)
+        characters in a 3D environment with some kind of 2D fist in the UI!?? Un-flipping-belivable
+    eatDialogues:
+      dialogues:
+      - Thoses GBs game are mid anyway *eats sandwich*
+      - Yeah no I didn't play Super Kebab Shop... I don't even like GBs games
+    toiletDialogues:
+      dialogues:
+      - "Eww, I played Screech Farter 2 and now I shit bricks!!! What the flip I
+        shouldn\u2019t have!!!"
+      - No, It can't be... I- I can't do the Super Piss move featured in Super Kebab
+        Shop!!! Trust = Voided. GBs = frauds!!!
+    socialDialogues:
+      dialogues:
+      - "I review bombed the latest Call of Doody with 1/5 stars reviews so that
+        stupid dwarf wouldn\u2019t buy it and shut his mouth about those stupid games"
+      - Games are not for me I think. I lost my small finger while playing Call of
+        Doody
+    callDialogues:
+      dialogues: []
+  currentValue: 240
+  lastPrice: 100

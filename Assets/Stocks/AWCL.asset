@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c194d27f700ff54991d53692e6f3b22, type: 3}
+  m_Name: AWCL
+  m_EditorClassIdentifier: Assembly-CSharp::StockData
+  stockName: As Whole Cleaners
+  tick: AWCL
+  startValue: 200
+  canBePreferredOrDisliked: 1
+  LoveDialoguePools:
+    workDialogues:
+      dialogues:
+      - "I sometime imagine my buttock getting cleaned by those wonderful bidet while
+        working. Do not mind it! It is but a fleeting figment of my dark and twisted
+        mind\u2026"
+      - Thoses sweet bidet are a good thing! I voted YES when the referendum was
+        casted!!
+    eatDialogues:
+      dialogues:
+      - "I can\u2019t wait to clean those nasty sandwich residues with my handheld
+        housekeeping bidet by As Whole Cleaners. As Whole as it gets!"
+      - As close as paradise as it comes!! I can eat food that stains and clean it
+        AAAALLL up with my bidet later
+    toiletDialogues:
+      dialogues:
+      - OHHH yes!! Those bidet are doing wonders!!!
+      - OOoooOO Bidet goodness (my new iconic expression)
+    socialDialogues:
+      dialogues:
+      - I am sure hyped to talk to you about bidet!! Where should I start???
+      - Did you know bidet came from the word.. eeem. forgot my bidet fact number
+        233... oops!
+    callDialogues:
+      dialogues: []
+  HateDialoguePools:
+    workDialogues:
+      dialogues:
+      - "I simply cannot stop hearing this bidet flush! It\u2019s soooo noisy!!!
+        It\u2019s gonna make me baaaan"
+      - I oughta get up and remove those nasty bidet, but I need to work
+    eatDialogues:
+      dialogues:
+      - "Bidet this bidet that, I can\u2019t even eat in peace!"
+      - The bidet water smells so bad!!! I think the plumber messed up the tubing
+        cuz I still smell it and it makes me sick to my stomach when eating
+    toiletDialogues:
+      dialogues:
+      - YAAAAAARGH, my BUTT!!!!! HOW DO I TURN THIS STUPID NOISY THING OFF!!!
+      - I *huff* *huff* need to *huff* DODGE THOSE WATER *huff* JETS
+    socialDialogues:
+      dialogues:
+      - "Those bidet addicted freaks need to get back to using the ol\u2019 hand
+        and wipe if you get me\u2026 The noise is just aberrant"
+      - As Whole Cleaners is just a play on asshole right? Cringe
+    callDialogues:
+      dialogues: []
+  currentValue: 260
+  lastPrice: 200

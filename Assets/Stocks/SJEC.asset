@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c194d27f700ff54991d53692e6f3b22, type: 3}
+  m_Name: SJEC
+  m_EditorClassIdentifier: Assembly-CSharp::StockData
+  stockName: Soleil Jonquille et Canari
+  tick: SJEC
+  startValue: 600
+  canBePreferredOrDisliked: 1
+  LoveDialoguePools:
+    workDialogues:
+      dialogues:
+      - "THAT\u2019S WHY WE WORK!! The pool I mean, I love to swim and float with
+        toys and pool noodles hihihi"
+      - '*Singing* Pool and noodle and poodle and noodle and pool are my favorite
+        things *reach a cool high note*'
+    eatDialogues:
+      dialogues:
+      - What should I even say about pools stuff while eating?
+      - I am actually really expressive sometime, but what really gets me going are
+        pools!!! I simply adore them!!
+    toiletDialogues:
+      dialogues:
+      - "They should put pool material in there\u2026 I would like to have more toys
+        to play with other than my own materials"
+      - Yeah I like pools!!! Now let me shiiii in peace...
+    socialDialogues:
+      dialogues:
+      - "Who\u2019s bringing the pool noodles this time??? ME!!!!!!!!!!"
+      - Yep, we are really organizing a really cool pool party this weekend... CAN'T
+        WAIT
+    callDialogues:
+      dialogues: []
+  HateDialoguePools:
+    workDialogues:
+      dialogues:
+      - Pools are too much pricey now in my opinion! I Bought a "Lagoon" for 12000$
+        from Soleil Jonquille et Canari for it to came out as a puddle. HEED MY WARNING,
+        DO NOT EVEN THINK ABOUT THEM!
+      - Don't talk to me, I don't like pool no
+    eatDialogues:
+      dialogues:
+      - Pool noodles aren't even that good... What the flip
+      - Ok, pools do smell good, but that's just because of piss no? Nasty
+    toiletDialogues:
+      dialogues:
+      - Someone put a pool noodle under the stalls and blew water at me onces...
+        traumatised ever since... simple as
+      - One time I shat in a pool and it made me not like it anymore... anyway *ploof*
+    socialDialogues:
+      dialogues:
+      - I AM NOT COMING TO THE FLIPPING POOL PARTY
+      - Not pool toys again!!
+    callDialogues:
+      dialogues: []
+  currentValue: 280
+  lastPrice: 100

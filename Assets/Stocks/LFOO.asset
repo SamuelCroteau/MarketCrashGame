@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c194d27f700ff54991d53692e6f3b22, type: 3}
+  m_Name: LFOO
+  m_EditorClassIdentifier: Assembly-CSharp::StockData
+  stockName: Lot Foocker
+  tick: LFOO
+  startValue: 200
+  canBePreferredOrDisliked: 1
+  LoveDialoguePools:
+    workDialogues:
+      dialogues:
+      - I bought those sport shoes that squeaks when you walk!!! Amazing experience!!!!
+      - WHERE IS MY SHOE??? I NEED IT TO WALK!!!!
+    eatDialogues:
+      dialogues:
+      - "I wonder how good my shoes would taste! Theses sport shoes sure smell good!!!
+        That\u2019s why I asked\u2026"
+      - I think I like my sandwiches better with a bit of my shoes in it
+    toiletDialogues:
+      dialogues:
+      - "Oh Noooooo!!! I spilled on my new Lot Foocker\u2019s shoes!!!"
+      - Why is there a precious Lot Foocker shoe in the bowl!!! That is UNACCEPTABLE!!!!
+    socialDialogues:
+      dialogues:
+      - Wow, nice shoes!!! They must be from Lot Foocker!!!! Niiiiiiiiiiiiiiiiiiiiiice,
+        woooooow
+      - I didn't put socks on so that I could REALLY feel my new shoes... BEST. DECISION.
+        IN. MY. LIFE
+    callDialogues:
+      dialogues: []
+  HateDialoguePools:
+    workDialogues:
+      dialogues:
+      - "No No No and No!!! I won\u2019t get the \"new shoes that makes a squeek
+        on each step\"!!!!!! Now leave me to work for the love of god!"
+      - I stopped wearing shoes.
+    eatDialogues:
+      dialogues:
+      - "Why do theses shoe smell sooooo strong ewww!! I\u2019m eating here what
+        the flip!"
+      - Some weirdos started eating shoes because of this new company... CRAZY WORLD!!
+    toiletDialogues:
+      dialogues:
+      - Why is there a disgusting Lot Foocker shoe in the bowl!!! To be fair I would
+        do the same
+      - Hear me out, I know shoes are important and all, but I've seen some shit!!!
+        It's a cult man
+    socialDialogues:
+      dialogues:
+      - "At least you have normal shoes on, even tho crocs would be better\u2026"
+      - I swear one day I will throw thoses Lot Foocker shoes down im the toilet.
+        Mark my words
+    callDialogues:
+      dialogues: []
+  currentValue: 100
+  lastPrice: 200

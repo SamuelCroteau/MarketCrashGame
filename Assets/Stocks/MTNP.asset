@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c194d27f700ff54991d53692e6f3b22, type: 3}
+  m_Name: MTNP
+  m_EditorClassIdentifier: Assembly-CSharp::StockData
+  stockName: McToe Nails Prices
+  tick: MTNP
+  startValue: 200
+  canBePreferredOrDisliked: 1
+  LoveDialoguePools:
+    workDialogues:
+      dialogues:
+      - "We are lucky the prices at McToe Nails Prices are good! Or else I wouldn\u2019t
+        shop spend theses hard working times, like now, fearing about buying groceries!!"
+      - '*singing* My little SODA POP *soda sound* YEAH!!! I LOVE SODA!!!!'
+    eatDialogues:
+      dialogues:
+      - '*munch* You should try theses white bread slices from McToe Nails Prices
+        *crunch?* they are sooooo good'
+      - That soda is really really really good!!! Hmmmmm.. sodaaaaa..
+    toiletDialogues:
+      dialogues:
+      - I swear I am no longer constipated after starting to eat from McToe Nails
+        Prices
+      - I like the fizzling tingle I can only get after drinking stuff from McToe
+        Nails Prices!
+    socialDialogues:
+      dialogues:
+      - "I heard that old McToe Nails had a farm, but it was stolen by Petto. Kinda
+        scummy if you ask me\u2026 but oh well\u2026"
+      - 'This new soda from McToe Nails is like the krabby patty from spongebob.
+        In my humble opinion: a state secret! Yummy!'
+    callDialogues:
+      dialogues: []
+  HateDialoguePools:
+    workDialogues:
+      dialogues:
+      - "McToe Nails isn\u2019t what it used to be. As I grew up and started working,
+        they became more and more\u2026 corporal and\u2026 I ain\u2019t even sure
+        I can talk about it\u2026 it makes me sick to my stomach"
+      - I don't like that grocery shop that opened next to the office I reckon
+    eatDialogues:
+      dialogues:
+      - I prefer the office sandwiches over the McToe Nails Prices sandwiches. They
+        are too nasty in my honest opinion
+      - Everytime I hear someone trying to talk me into eating McToe Nails Prices'
+        sandwiches, I try to break the walls with MY BARE FISTS to get out, but they
+        hurt more and more like it's stopping me from leaving!!!
+    toiletDialogues:
+      dialogues:
+      - "Sheeee\u2026 liquid poo from that dang soda :("
+      - McToe Nails Prices eh? More like shit like in the toilet right?
+    socialDialogues:
+      dialogues:
+      - Old McToe Nails did NOT have a farm!!!! It is MK-Ultra level manipulation!!!!
+      - Grocery shopping would be simpler if this grocery shop neer the office would
+        stop selling all these soda!!! There's like 6 rows of that shii
+    callDialogues:
+      dialogues: []
+  currentValue: 120
+  lastPrice: 200
